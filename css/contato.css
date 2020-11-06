@@ -1,0 +1,87 @@
+.interna_contato {
+	background: url("../img/bg/bg-contato.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.contato {
+	padding-top: 60px;
+	font-family: georgia, times new roman, serif;
+	color: #182741;
+	font-size: 18px;
+	padding-bottom: 60px;
+}
+
+.barra {
+	width: 3px;
+	height: 410px;
+	background: #ff1e04;
+	margin: 0px 50px 0px 50px;
+}
+
+.contato_form input {
+	width: 100%;
+	border: 4px solid #ff1e04;
+	background: #d8dacc;
+	color: #182741;
+	font-size: 14px;
+	padding: 5px 5px;
+	outline: none;
+}
+
+.contato_form textarea {
+	width: 100%;
+	height: 100px;
+	border: 4px solid #ff1e04;
+	background: #d8dacc;
+	color: #182741;
+	font-size: 14px;
+	padding: 5px 5px;
+	outline: none;
+}
+
+.contato_form button {
+	font-family: arial, sans-serif;
+	cursor: pointer;
+}
+
+.contato_dados h3 {
+	font-size: 18px;
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	color: #182741;
+}
+
+.dados {
+	padding-bottom: 60px;
+}
+
+.dados p {
+	line-height: 25px;
+}
+
+.dados h3 {
+	padding-bottom: 5px;
+}
+
+.contato_redes ul li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.contato_redes h3 {
+	padding-bottom: 10px;
+}
+
+.endereco {
+	padding-top: 10px;
+}
+
+.mapa img {
+	border: 3px solid #182741;
+}
+
+.mapa {
+	padding-bottom: 60px;
+}

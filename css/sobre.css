@@ -1,0 +1,43 @@
+.sobre_historia {
+	margin-top: 60px;
+}
+
+.interna_sobre {
+	background: url("../img/bg/bg-sobre.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.texto_sobre p {
+	max-width: 500px;
+	font-family: georgia, times new roman, serif;
+	font-size: 18px;
+	line-height: 20px;
+	color: #182741;
+}
+
+.texto_sobre h2 {
+	font-family: arial, sans-serif;
+	color: #182741;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-right: -.1em;
+}
+
+.texto_sobre h2:after {
+	content: "";
+	display: block;
+	width: 120px;
+	height: 3px;
+	background: #ff1e04;
+	margin: 5px 0px 10px 0px;
+}
+
+.img_sobre {
+	margin-top: 30px;
+}
+
+.qualidade_sobre {
+	margin-bottom: 60px;
+}

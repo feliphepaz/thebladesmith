@@ -1,0 +1,263 @@
+/*Estilo para Smartphone*/
+@media only screen and (max-width: 787px) {
+  /*Header*/
+
+  .header {
+    position: relative;
+    padding-bottom: 0px;
+    height: 240px;
+  }
+
+  .logo {
+    margin-left: 50px;
+  }
+
+  .logo img {
+    margin-top: 13px;
+  }
+
+  .header_menu {
+    text-align: center;
+  }
+
+  .header_menu ul {
+    margin-top: 83px;
+    margin-bottom: -10px;
+  }
+
+  .header_menu ul li {
+    margin: 5px;
+  }
+
+  .header_menu ul li a {
+    border: 2px solid #182741;
+    width: 136px;
+    display: block;
+    float: left;
+  }
+
+  /*Introdução*/
+
+  .introducao {
+    margin-top: 0px;
+    padding-top: 27px;
+    height: 50px;
+    background: url("../img/bg/bg-home-mobile.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .introducao h1 {
+    font-size: 30px;
+    color: #182741;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .quote-intro p:before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 3px;
+    background: #182741;
+    margin: 20px auto 20px auto;
+  }
+
+  .quote-intro {
+    margin-bottom: 30px;
+  }
+
+  /*Introdução Interna*/
+
+  .introducao_interna {
+    margin-top: 0px;
+  }
+
+  /*Call*/
+
+  .call {
+    padding-top: 10px;
+  }
+
+  .call-2 {
+    padding-top: 10px;
+  }
+
+  /*Qualidade*/
+
+  .linhas {
+    visibility: hidden;
+  }
+
+  .qualidade_sobre {
+    margin-top: 30px;
+  }
+
+  /*Sobre*/
+
+  .texto_sobre p {
+    font-size: 14px;
+  }
+
+  /*Produtos*/
+
+  .produto_item img {
+    max-width: 100%;
+  }
+
+  .produto_item h2 {
+    padding-top: 74px;
+  }
+
+  .produto_icone {
+    margin-top: -137px;
+    margin-bottom: 20px;
+  }
+
+  .produto_icone {
+    background: #182741;
+    padding: 30px 0;
+  }
+
+  .foto2 {
+    margin-bottom: 20px;
+  }
+
+  .produto_info {
+    margin-left: 0px;
+    width: 300px;
+    padding: 9px 20px 20px 20px;
+  }
+
+  .produto_info_machado p {
+    margin-top: -14px;
+  }
+
+  .produto_info p {
+    font-size: 14px;
+  }
+
+  .produto_info ul li {
+    width: 160px;
+    height: 40px;
+    font-size: 14px;
+    padding-top: 8px;
+  }
+
+  /*Orçamento*/
+
+  .barra {
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+  }
+
+  .dados {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .customize ul {
+    padding-right: 0px;
+  }
+
+  /*Contato*/
+
+  .mapa {
+    margin-top: -33px;
+  }
+
+  /*Copy*/
+
+  .copy .p_prin {
+    margin-bottom: 0px;
+  }
+
+  .line {
+    width: 0px;
+    height: 0px;
+    margin-bottom: 0px;
+  }
+
+  .copy .p_alt {
+    font-family: arial, sans-serif;
+    max-width: 230px;
+    font-size: 10px;
+    color: #d8dacc;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+  }
+}
+
+/*Estilo para Tablet 1*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  /*Introdução*/
+
+  .introducao {
+    padding-top: 49px;
+  }
+
+  /*Qualidade*/
+
+  .qualidade-lista li {
+    text-align: center;
+    padding: 0 30px;
+  }
+
+  .qual_logo {
+    width: 180px;
+    height: 80px;
+    margin-left: 300px;
+    margin-bottom: -35px;
+  }
+
+  .linhas {
+    width: 500px;
+    height: 200px;
+    margin-left: 140px;
+    margin-bottom: -135px;
+  }
+
+  /*Produtos*/
+
+  .produtos ul li:last-child p {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  .produto_info {
+    width: 286px;
+  }
+
+  .produto_info p {
+    font-size: 14px;
+    margin-top: 9px;
+  }
+
+  .produto_info ul li {
+    width: 160px;
+    height: 40px;
+    font-size: 14px;
+    padding-top: 8px;
+  }
+
+  /*Orçamento*/
+
+  .barra {
+    margin: 0px 46px 0px 46px;
+  }
+
+  .customize ul {
+    padding-right: 0px;
+  }
+}
+
+/*Estilo para Tablet 2*/
+@media only screen and (min-width: 980px) and (max-width: 1106px) {
+  /*Introdução*/
+
+  .introducao {
+    padding-top: 49px;
+  }
+}
